@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=740&t=st=1667819360~exp=1667819960~hmac=dc3670a5b16686670aee9b8ac194168fca5a6ed2e63e4dd556d31c1668718459);
+  background-repeat: no-repeat;
+  background-size:1366px 768px ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  
+  width: 500px;
+  margin-top: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card-title{
+  margin-top: 55px;
+}
+.search{
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+}
+.city{
+  margin-top: 30px;
+}
+.temp{
+  font-weight: bolder;
+  font-size: 50px;
+}
+@media only screen and (max-width: 767px) {
+  
+  body{
+    background-size: auto 650px;
+    height: 100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card{
+    width: 300px;
+    margin-top: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .card-title{
+    margin-top: 55px;
   }
+  .search{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+  }
+  .city{
+    margin-top: 40px;
+  }
+  .temp{
+    margin-top: 12px;
+    font-size: 55px;
+  }
+
 }
